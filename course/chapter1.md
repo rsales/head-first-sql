@@ -49,17 +49,17 @@ CREATE TABLE meus_contatos
 );
 ```
 
-View my new table created
+View info table `meus_contatos`
 ```sql
 DESC meus_contatos;
 ```
 
-Remove old table
+Remove table `meus_contatos`
 ```sql
 DROP TABLE meus_contatos;
 ```
 
-Create new table
+Create new table `meus_contatos`
 ```sql
 CREATE TABLE meus_contatos
 (
@@ -75,8 +75,9 @@ CREATE TABLE meus_contatos
   procura VARCHAR (100)
 );
 ```
+## Insert contents in table: INSERT
 
-Insert new content in table
+Insert new complete data
 ```sql
 INSERT INTO meus_contatos
 (sobrenome, primeiro_nome, email, sexo, 
